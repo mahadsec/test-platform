@@ -1,0 +1,20 @@
+# config.yaml - MahadSec Demo Config
+
+server:
+  host: 0.0.0.0
+  port: 8080
+
+database:
+  uri: sqlite:///mahadsec_config.db
+  user: admin
+  password: changeme
+
+logging:
+  level: INFO
+  file: mahadsec.log
+
+# Feature Flags
+features:
+  enable_admin_panel: true
+  enable_debug_mode: true
+
